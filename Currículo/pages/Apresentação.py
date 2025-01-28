@@ -24,6 +24,6 @@ Apesar de minha falta de experiência prática no campo, estou extremamente moti
 
 Estou disposto a me mudar para qualquer localidade necessária para a posição, acreditando que esta oportunidade  seria uma plataforma ideal para iniciar minha carreira em análise de dados. Meu compromisso com a excelência e minha paixão por transformar dados em insights acionáveis farão de mim uma adição valiosa para sua equipe.
 
-Agradeço sua consideração e estou ansioso para a oportunidade de discutir como posso contribuir para o sucesso da [Nome da Empresa]. Estou disponível para entrevistas e discussões adicionais conforme sua conveniência.
+Agradeço sua consideração e estou ansioso para a oportunidade de discutir como posso contribuir para o sucesso da empresa. Estou disponível para entrevistas e discussões adicionais conforme sua conveniência.
 
 Atenciosamente, Frederico Miraglia.''')
