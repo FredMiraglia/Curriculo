@@ -1,7 +1,13 @@
 import streamlit as st
 
 st.title("Apresentação: ")
-st.markdown('''Frederico Miraglia Nacionalidade: Brasileiro Idade: 41 anos Estado civil: Casado Filhos: Três filhas Natural de: Rio de Janeiro
+st.write('Frederico Miraglia')
+st.write('Nacionalidade: Brasileiro')
+st.write('Idade: 41 anos')
+st.write('Estado civil: Casado')
+st.write('Natural de: Rio de Janeiro')
+
+st.markdown('''
             
 Prezado(a),
 
