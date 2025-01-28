@@ -1,13 +1,8 @@
 import streamlit as st
 
-st.title("Apresentação: ")
-st.write('Frederico Miraglia')
-st.write('Nacionalidade: Brasileiro')
-st.write('Idade: 41 anos')
-st.write('Estado civil: Casado')
-st.write('Natural de: Rio de Janeiro')
 
-st.markdown('''
+Apresentação = st.container(border=True)
+Apresentação.markdown('''
             
 Prezado(a),
 
