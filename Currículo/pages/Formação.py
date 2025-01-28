@@ -25,7 +25,7 @@ hab1= "Python: experiência em programação com Python, incluindo bibliotecas c
 hab2="Análise de dados: habilidades em manipulação, limpeza e visualização de dados. Machine Learning: conhecimento básico em algoritmos de aprendizado de máquina e sua implementação em Python."
 hab3="SQL: familiaridade com consultas e manipulação de bancos de dados."
 hab4='Visualização de dados: habilidades em criação de gráficos e visualizações usando bibliotecas como Matplotlib e Seaborn.'
-st.header('H A B I L I D A D E S')
+st.header('H A B I L I D A D E S:')
 habilidades = st.container(border=True)
 habilidades.write(f'{hab1}')
 habilidades.write(f'{hab2}')
