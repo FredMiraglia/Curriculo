@@ -12,7 +12,6 @@ with col2:
     st.write('Nacionalidade: Brasileiro.')
     st.write('Idade: 41 anos.')
     st.write("Estado civil: Casado.")
-    st.write('Filhos: Três filhas.')
     st.write('Natural: Rio de janeiro.')
     curriculo = st.container(border=True)
     curriculo.download_button( "Baixar Currículo",
