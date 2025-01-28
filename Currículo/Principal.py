@@ -4,6 +4,7 @@ import streamlit as st
 st.title('Currículo')
 st.header('Frederico Matheus de Oliveira Miraglia')
 st.write("Analista de dados Jr.")
+st.texte('Ciência de dados | Análise de dados | Python | Power BI')
 
 col1, col2  = st.columns(2)
 with col1:
