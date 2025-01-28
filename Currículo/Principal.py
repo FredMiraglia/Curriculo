@@ -6,7 +6,7 @@ st.header('Frederico Matheus de Oliveira Miraglia')
 st.header("Analista de dados JR")
 col1, col2  = st.columns(2)
 with col1:
-    st.image(image='img/imagen1.jpeg',width=250, caption="Frederico Miraglia")
+    st.image(image='imagen1.jpeg',width=250, caption="Frederico Miraglia")
 
 with col2:
     st.write('Nacionalidade: Brasileiro.')
