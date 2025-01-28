@@ -1,7 +1,7 @@
 import streamlit as st
 
 
-st.title('currículo')
+st.title('Currículo')
 st.header('Frederico Matheus de Oliveira Miraglia')
 st.header("Analista de dados JR")
 col1, col2  = st.columns(2)
