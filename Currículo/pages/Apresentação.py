@@ -23,8 +23,8 @@ Adquiri habilidades técnicas robustas em Python, incluindo bibliotecas como pan
 
 Apesar de minha falta de experiência prática no campo, estou extremamente motivado a aprender e aplicar meus conhecimentos em um ambiente profissional. Estou comprometido com meu desenvolvimento contínuo e concluí diversos cursos complementares, como MySQL, algoritmos, e ciência de dados aplicada a empresas e negócios.
 
-Estou disposto a me mudar para qualquer localidade necessária para a posição, acreditando que esta oportunidade na [Nome da Empresa] seria uma plataforma ideal para iniciar minha carreira em análise de dados. Meu compromisso com a excelência e minha paixão por transformar dados em insights acionáveis farão de mim uma adição valiosa para sua equipe.
+Estou disposto a me mudar para qualquer localidade necessária para a posição. Meu compromisso com a excelência e minha paixão por transformar dados em insights acionáveis farão de mim uma adição valiosa para sua equipe.
 
-Agradeço sua consideração e estou ansioso para a oportunidade de discutir como posso contribuir para o sucesso da [Nome da Empresa]. Estou disponível para entrevistas e discussões adicionais conforme sua conveniência.
+Agradeço sua consideração e estou ansioso para a oportunidade de discutir como posso contribuir para o sucesso da Empresa. Estou disponível para entrevistas e discussões adicionais conforme sua conveniência.
 
 Atenciosamente, Frederico Miraglia.''')
