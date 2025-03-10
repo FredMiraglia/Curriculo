@@ -11,8 +11,6 @@ Estou escrevendo para expressar meu entusiasmo pela posição de Analista de Dad
 
 Minha trajetória educacional inclui:
 
-Pós-graduação em Estatística pela Faculdade Focus (em andamento, 2024)
-
 Pós-graduação em Data Science pela Descomplica (2023-2024)
 
 Tecnólogo em Ciência de Dados (2020-2021)
