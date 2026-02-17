@@ -32,18 +32,9 @@ with st.sidebar:
     st.subheader("📥 Exportar")
     
     # BOTÃO DE DOWNLOAD (Colocado na sidebar para ficar sempre acessível)
-    nome_arquivo = "curriculo.pdf"
-    try:
-        with open(nome_arquivo, "rb") as pdf_file:
-            PDFbyte = pdf_file.read()
-        st.download_button(
-            label="📄 Baixar Currículo PDF",
-            data=PDFbyte,
-            file_name=nome_arquivo,
-            mime="application/pdf"
-        )
-    except FileNotFoundError:
-        st.warning("Arquivo PDF não encontrado para download.")
+    st.title("📄 Baixar Currículo PDF")
+    url_curriculo = "https://drive.google.com/file/d/1Vw8X4QpzlPibn-BS2EM7aEpo5lLIDa2g/view?usp=drive_link"
+    st.link_button("Baixar meu Currículo", url_curriculo)
 
 # --- SEÇÕES DINÂMICAS ---
 
@@ -108,3 +99,4 @@ elif secao == "Habilidades & Cursos":
 # --- RODAPÉ ---
 st.divider()
 st.caption("© 2026 Frederico Miraglia | Currículo desenvolvido com Streamlit")
+
