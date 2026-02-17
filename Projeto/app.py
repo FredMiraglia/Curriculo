@@ -29,8 +29,6 @@ with st.sidebar:
     secao = st.radio("Ir para:", ["Resumo Profissional", "Formação Acadêmica", "Experiência", "Habilidades & Cursos"])
     
     st.divider()
-    st.subheader("📥 Exportar")
-    
     # BOTÃO DE DOWNLOAD (Colocado na sidebar para ficar sempre acessível)
     st.title("📄 Baixar Currículo PDF")
     url_curriculo = "https://drive.google.com/file/d/1Vw8X4QpzlPibn-BS2EM7aEpo5lLIDa2g/view?usp=drive_link"
@@ -99,4 +97,5 @@ elif secao == "Habilidades & Cursos":
 # --- RODAPÉ ---
 st.divider()
 st.caption("© 2026 Frederico Miraglia | Currículo desenvolvido com Streamlit")
+
 
