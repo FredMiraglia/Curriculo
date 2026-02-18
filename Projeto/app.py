@@ -8,18 +8,21 @@ st.set_page_config(page_title="Currículo | Frederico Miraglia", page_icon="📊
 # --- CABEÇALHO ---
 col1, col2 = st.columns([3, 1])
 
-with col1:
-    st.title("Frederico Matheus Miraglia")
-    st.write("**Analista de Dados Jr. | Data Science | Estatística Aplicada**")
-    st.markdown("""
-    📍 Belém, PA | 📱 (91) 9 99833-9441 | 📧 [fredericomiraglia@gmail.com](mailto:fredericomiraglia@gmail.com)
-    
-    🔗 [LinkedIn](https://www.linkedin.com/in/frederico-matheus-miraglia-ab8963120/) | 💻 [GitHub](https://github.com/FredMiraglia)
-    """)
+with col_form1:
+        st.markdown("**Pós-Graduação em Estatística Aplicada**")
+        st.caption("Anhanguera | 07/2024 - 05/2025 (Em andamento)")
+        st.markdown("**Pós-Graduação em Data Science**")
+        st.caption("Descomplica | 04/2023 - 04/2024 (Concluído)")
 
-with col2:
-    # Foto de perfil vinda do GitHub
-    st.image("https://avatars.githubusercontent.com/u/68394837?v=4", width=160)
+    with col_form2:
+        st.markdown("**Tecnólogo em Ciência de Dados**")
+        st.caption("Universidade Cruzeiro do Sul | 09/2020 - 09/2022 (Concluído)")
+        st.markdown("**Tecnólogo em Análise e Desenvolvimento de Sistemas**")
+        st.caption("Universidade Cruzeiro do Sul | 03/2017 - 03/2019 (Concluído)")
+
+    with col_form3:
+        st.markdown("**Técnico em Logística**")
+        st.caption("Universidade Cruzeiro do Sul | 01/2019 - 01/2020 (Concluído)")
 
 st.divider()
 
@@ -97,5 +100,6 @@ elif secao == "Habilidades & Cursos":
 # --- RODAPÉ ---
 st.divider()
 st.caption("© 2026 Frederico Miraglia | Currículo desenvolvido com Streamlit")
+
 
 
