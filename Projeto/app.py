@@ -14,13 +14,13 @@ with col1:
         st.markdown("**Pós-Graduação em Data Science**")
         st.caption("Descomplica | 04/2023 - 04/2024 (Concluído)")
 
-    with col2:
+with col2:
         st.markdown("**Tecnólogo em Ciência de Dados**")
         st.caption("Universidade Cruzeiro do Sul | 09/2020 - 09/2022 (Concluído)")
         st.markdown("**Tecnólogo em Análise e Desenvolvimento de Sistemas**")
         st.caption("Universidade Cruzeiro do Sul | 03/2017 - 03/2019 (Concluído)")
 
-    with col3:
+with col3:
         st.markdown("**Técnico em Logística**")
         st.caption("Universidade Cruzeiro do Sul | 01/2019 - 01/2020 (Concluído)")
 
@@ -100,6 +100,7 @@ elif secao == "Habilidades & Cursos":
 # --- RODAPÉ ---
 st.divider()
 st.caption("© 2026 Frederico Miraglia | Currículo desenvolvido com Streamlit")
+
 
 
 
