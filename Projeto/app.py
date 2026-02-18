@@ -2,28 +2,24 @@ import pandas as pd
 import numpy as np
 import streamlit as st
 
-# 1. Configuração da página
+# 1. Configuração da página (DEVE ser a primeira linha de comando Streamlit)
 st.set_page_config(page_title="Currículo | Frederico Miraglia", page_icon="📊", layout="wide")
 
 # --- CABEÇALHO ---
-# Corrigido: Agora a lista tem 3 pesos para 3 colunas
-col1, col2, col3 = st.columns([1, 1, 1]) 
+col1, col2 = st.columns([3, 1])
 
 with col1:
-    st.markdown("**Pós-Graduação em Estatística Aplicada**")
-    st.caption("Anhanguera | 07/2024 - 05/2025 (Em andamento)")
-    st.markdown("**Pós-Graduação em Data Science**")
-    st.caption("Descomplica | 04/2023 - 04/2024 (Concluído)")
+    st.title("Frederico Matheus Miraglia")
+    st.write("**Analista de Dados Jr. | Data Science | Estatística Aplicada**")
+    st.markdown("""
+    📍 Belém, PA | 📱 (91) 9 99833-9441 | 📧 [fredericomiraglia@gmail.com](mailto:fredericomiraglia@gmail.com)
+    
+    🔗 [LinkedIn](https://www.linkedin.com/in/frederico-matheus-miraglia-ab8963120/) | 💻 [GitHub](https://github.com/FredMiraglia)
+    """)
 
 with col2:
-    st.markdown("**Tecnólogo em Ciência de Dados**")
-    st.caption("Universidade Cruzeiro do Sul | 09/2020 - 09/2022 (Concluído)")
-    st.markdown("**Tecnólogo em Análise e Desenvolvimento de Sistemas**")
-    st.caption("Universidade Cruzeiro do Sul | 03/2017 - 03/2019 (Concluído)")
-
-with col3:
-    st.markdown("**Técnico em Logística**")
-    st.caption("Universidade Cruzeiro do Sul | 01/2019 - 01/2020 (Concluído)")
+    # Foto de perfil vinda do GitHub
+    st.image("https://avatars.githubusercontent.com/u/68394837?v=4", width=160)
 
 st.divider()
 
@@ -33,9 +29,21 @@ with st.sidebar:
     secao = st.radio("Ir para:", ["Resumo Profissional", "Formação Acadêmica", "Experiência", "Habilidades & Cursos"])
     
     st.divider()
-    st.title("📄 Currículo PDF")
-    url_curriculo = "https://drive.google.com/file/d/1Vw8X4QpzlPibn-BS2EM7aEpo5lLIDa2g/view?usp=drive_link"
-    st.link_button("Abrir arquivo no Drive", url_curriculo)
+    st.subheader("📥 Exportar")
+    
+    # BOTÃO DE DOWNLOAD (Colocado na sidebar para ficar sempre acessível)
+    nome_arquivo = "curriculo.pdf"
+    try:
+        with open(nome_arquivo, "rb") as pdf_file:
+            PDFbyte = pdf_file.read()
+        st.download_button(
+            label="📄 Baixar Currículo PDF",
+            data=PDFbyte,
+            file_name=nome_arquivo,
+            mime="application/pdf"
+        )
+    except FileNotFoundError:
+        st.warning("Arquivo PDF não encontrado para download.")
 
 # --- SEÇÕES DINÂMICAS ---
 
@@ -47,9 +55,9 @@ if secao == "Resumo Profissional":
     Sou apaixonado por decifrar padrões complexos e transformá-los em decisões estratégicas. Utilizo rigor técnico e atenção minuciosa aos detalhes para gerar insights que impulsionam o crescimento e a eficiência operacional das empresas.
 
     **Principais Competências e Ferramentas:**
-    * **Linguagens & Dados:** Python, SQL e implementação de modelos de Machine Learning.
+    * **Linguagens & Dados:** Conhecimento em Python, SQL e implementação de modelos de Machine Learning.
     * **Análise Estatística:** Aplicação prática de métodos estatísticos para modelagem preditiva e validação de dados.
-    * **Visualização:** Dashboards avançados em Power BI e aplicações Streamlit.
+    * **Visualização:** Desenvolvimento de dashboards avançados em Power BI para suporte crítico à tomada de decisão.
     """)
     
 elif secao == "Formação Acadêmica":
@@ -67,7 +75,7 @@ elif secao == "Formação Acadêmica":
         st.caption("Universidade Cruzeiro do Sul | 09/2020 - 09/2022 (Concluído)")
         st.markdown("**Tecnólogo em Análise e Desenvolvimento de Sistemas**")
         st.caption("Universidade Cruzeiro do Sul | 03/2017 - 03/2019 (Concluído)")
-            
+
     with col_form3:
         st.markdown("**Técnico em Logística**")
         st.caption("Universidade Cruzeiro do Sul | 01/2019 - 01/2020 (Concluído)")
