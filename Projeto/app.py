@@ -55,7 +55,7 @@ elif secao == "Formação Acadêmica":
     
     with col_form1:
         st.markdown("**Pós-Graduação em Estatística Aplicada**")
-        st.caption("Anhanguera | 07/2024 - 05/2025 (Em andamento)")
+        st.caption("Anhanguera | 07/2025 - 05/2026 (Em andamento)")
         st.markdown("**Pós-Graduação em Data Science**")
         st.caption("Descomplica | 04/2023 - 04/2024 (Concluído)")
 
@@ -78,6 +78,13 @@ elif secao == "Experiência":
     * Gestão de segurança patrimonial e monitoramento, demonstrando compromisso e estabilidade profissional (10 anos de casa).
     * *Nota: Atualmente em transição de carreira para a área de Dados, aplicando conhecimentos técnicos em projetos práticos.*
     """)
+    st.markdown("**PORTEIRO (HOTEL)**")
+    st.caption("E MAUES LAVAREDA | 01/10/2013 - 29/05/201")
+
+    st.markdown("**OPERADOR DE MAQUINA DE ELETROEROSAO**")
+    st.caption("E MAUES LAVAREDA | 16/11/2010 - 15/10/2012")
+   
+
 
 elif secao == "Habilidades & Cursos":
     st.markdown("### 🛠️ Habilidades Técnicas")
@@ -101,5 +108,6 @@ elif secao == "Habilidades & Cursos":
 # --- RODAPÉ ---
 st.divider()
 st.caption("© 2026 Frederico Miraglia | Currículo desenvolvido com Streamlit")
+
 
 
