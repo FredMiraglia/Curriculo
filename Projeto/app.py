@@ -79,10 +79,10 @@ elif secao == "Experiência":
     * *Nota: Atualmente em transição de carreira para a área de Dados, aplicando conhecimentos técnicos em projetos práticos.*
     """)
     st.markdown("**PORTEIRO (HOTEL)**")
-    st.caption("E MAUES LAVAREDA | 01/10/2013 - 29/05/201")
+    st.caption("E MAUES LAVAREDA | 01/10/2013 - 29/05/2015")
 
     st.markdown("**OPERADOR DE MAQUINA DE ELETROEROSAO**")
-    st.caption("E MAUES LAVAREDA | 16/11/2010 - 15/10/2012")
+    st.caption("MAHLE METAL LEVE S.A. | 16/11/2010 - 15/10/2012")
    
 
 
@@ -108,6 +108,7 @@ elif secao == "Habilidades & Cursos":
 # --- RODAPÉ ---
 st.divider()
 st.caption("© 2026 Frederico Miraglia | Currículo desenvolvido com Streamlit")
+
 
 
 
