@@ -71,19 +71,24 @@ elif secao == "Formação Acadêmica":
 
 elif secao == "Experiência":
     st.markdown("### 💼 Experiência Profissional")
-    st.markdown("**Vigia Noturno**")
-    st.caption("Centro Educacional Interativo Sociedade Simples LTDA | 03/2016 - Atual")
+    st.markdown("**Vigia Noturno (Segurança Patrimonial)**")
+    st.caption("Centro Educacional Interativo Sociedade Simples LTDA | Março de 2016 – Atual")
     st.write("""
-    * Atuação em ambiente de alta responsabilidade, exigindo atenção minuciosa aos detalhes e resiliência.
-    * Gestão de segurança patrimonial e monitoramento, demonstrando compromisso e estabilidade profissional (10 anos de casa).
+    * Vigilância e Monitoramento: Responsável pela integridade física e patrimonial da instituição por mais de 9 anos, demonstrando alto grau de confiança, lealdade e estabilidade profissional.
+    * Gestão de Riscos: Atuação preventiva em ambiente de alta responsabilidade, com foco em atenção minuciosa aos detalhes e tomada de decisão sob pressão.
+    * Relatórios de Ocorrências: Manutenção de registros precisos de monitoramento, garantindo a organização de dados operacionais para a diretoria.
+    * Resiliência e Adaptabilidade: Capacidade comprovada de manter a performance em regimes de trabalho exigentes e horários diferenciados.
     * *Nota: Atualmente em transição de carreira para a área de Dados, aplicando conhecimentos técnicos em projetos práticos.*
     """)
     st.markdown("**PORTEIRO (HOTEL)**")
     st.caption("E MAUES LAVAREDA | 01/10/2013 - 29/05/2015")
+    st.write("""* Controle de acesso de visitantes, priorizando a segurança e o atendimento ao cliente com excelência.""")
 
     st.markdown("**OPERADOR DE MAQUINA**")
     st.caption("MAHLE METAL LEVE S.A. | 16/11/2010 - 15/10/2012")
-   
+    st.write("""
+    * Operação de maquinário industrial seguindo rigorosos padrões de qualidade e segurança (normas técnicas).
+    * Foco em produtividade e redução de erros no processo fabril.""")
 
 
 elif secao == "Habilidades & Cursos":
@@ -108,6 +113,7 @@ elif secao == "Habilidades & Cursos":
 # --- RODAPÉ ---
 st.divider()
 st.caption("© 2026 Frederico Miraglia | Currículo desenvolvido com Streamlit")
+
 
 
 
