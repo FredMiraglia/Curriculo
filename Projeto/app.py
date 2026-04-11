@@ -55,7 +55,7 @@ elif secao == "Formação Acadêmica":
     
     with col_form1:
         st.markdown("**Pós-Graduação em Estatística Aplicada**")
-        st.caption("Anhanguera | 07/2025 - 05/2026 (Em andamento)")
+        st.caption("Anhanguera | 07/2025 - 04/2026 (Em andamento)")
         st.markdown("**Pós-Graduação em Data Science**")
         st.caption("Descomplica | 04/2023 - 04/2024 (Concluído)")
 
