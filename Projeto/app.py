@@ -14,7 +14,7 @@ with col1:
     st.markdown("""
     📍 Belém, PA | 📱 (91) 9 99833-9441 | 📧 [fredericomiraglia@gmail.com](mailto:fredericomiraglia@gmail.com)
     
-    🔗 [LinkedIn](https://www.linkedin.com/in/frederico-matheus-miraglia-ab8963120/) | 💻 [GitHub](https://github.com/FredMiraglia)
+    🔗 [LinkedIn](https://www.linkedin.com/in/frederico-miraglia-ab8963120/) | 💻 [GitHub](https://github.com/FredMiraglia)
     """)
 
 with col2:
