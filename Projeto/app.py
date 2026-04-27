@@ -31,7 +31,7 @@ with st.sidebar:
     st.divider()
     st.subheader("📥 Exportar")
     st.title("📄 Currículo PDF")
-    url_curriculo = "https://drive.google.com/file/d/1Z2Zv6-tnvuJ8aotihF-UbhhJHOPKL37B/view?usp=drive_link"
+    url_curriculo = "https://drive.google.com/file/d/16Vq9lFCtieXKVy_Xvw8w-qAVvLikcmyq/view?usp=drive_link"
     st.link_button("Abrir arquivo no Drive", url_curriculo)
 
 # --- SEÇÕES DINÂMICAS ---
