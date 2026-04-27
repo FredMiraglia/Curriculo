@@ -101,7 +101,7 @@ elif secao == "Habilidades & Cursos":
 
     st.markdown("### 📚 Educação Complementar (Cursos)")
     cursos = [
-        "**Séries Temporais com Redes Neurais Artificiais em Python** - Udemy (14,5h)"
+        "**Séries Temporais com Redes Neurais Artificiais em Python** - Udemy (14,5h)",
         "**Curso Básico de MySQL** (40h)",
         "**Python para Data Science e Machine Learning** - Udemy (17,5h)",
         "**Ciência de Dados para Empresas e Negócios** - Udemy (14,5h)",
